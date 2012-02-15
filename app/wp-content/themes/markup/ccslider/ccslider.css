@@ -1,0 +1,132 @@
+/* CSS for jQuery CCSlider Plugin 1.1.1 
+ * Copyright 2011, Nilok Bose  
+ * http://codecanyon.net/user/cosmocoder
+*/
+
+
+/* Styles for slider div and images */
+
+.ccslider {
+	position: relative;	
+}
+
+.slider-innerWrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.slider-innerWrapper img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: visible !important;
+}
+
+
+/* Styles for next/prev and play/pause buttons */
+
+.slider-controls {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	display: none;
+}
+
+.ccslider:hover .slider-controls {
+	display: block;
+}
+
+a.slider-nav {
+	position: absolute;	
+	top: 50%;	
+	cursor: pointer;	
+}
+
+.slider-nav.prev {	
+	left: 0;
+}
+
+.slider-nav.next {	
+	right: 0;
+}
+
+.slider-timer {	
+	position: absolute;	
+	left: 50%;	
+	top: 50%;	
+	cursor: pointer;
+}
+
+
+
+/* Styles for the control links */
+.control-links {
+    position: absolute;
+    z-index: 200;
+    list-style: none;
+    bottom: -40px;    
+    padding: 0;
+	min-width: 100%;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.control-links li {
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;    
+    background: #969696;
+    width: 10px;
+    height: 11px;
+	zoom: 1;
+	*float: left;	/* for IE6, IE7 */
+}
+
+.control-links li:first-child {
+	margin-left: 0;
+}
+
+.control-links li.active {
+    background: #00b8e9;
+}
+
+.control-links li.linkThumb {
+	width: 100px;
+	height: 50px;
+	text-indent: 0;
+	background: transparent none;
+}
+
+.control-links li.linkThumb.active {
+	border-bottom: 2px solid #fff;
+	background: transparent none;
+}
+
+.control-links li.linkThumb img {
+	display: inline !important;
+}
+
+
+/* Caption styles */
+.cc-caption {
+	display: none;
+}
+
+.slider-caption {
+	background: #000;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+	right: 0;
+    bottom: 0;	
+	display: none;
+}

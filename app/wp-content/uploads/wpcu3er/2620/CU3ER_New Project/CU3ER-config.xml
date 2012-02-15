@@ -1,0 +1,151 @@
+﻿<data>
+  <debug>0</debug><referral>l3ns28cyVxUPeQmcJ</referral>
+  <project_settings>
+    <width>960</width>
+    <height>394</height>
+  </project_settings>
+  <settings>
+    <folder_images>images</folder_images>
+    <folder_fonts>fonts</folder_fonts>
+    <background>
+      <color transparent="true">0xffffff</color>
+      <image use_image="true" align_to="stage" align_pos="TC" x="0" y="0" scaleX="1" scaleY="1">
+        <url><![CDATA[1_okvir6.png]]></url>
+      </image>
+    </background>
+    <start_slide>1</start_slide>
+    <auto_play>true</auto_play>
+    <randomize_slides>false</randomize_slides>
+    <pause_on_rollover>true</pause_on_rollover>
+    <branding align_to="stage" align_pos="TR" x="-10" y="10">
+      <remove_logo_loader>true</remove_logo_loader>
+      <remove_right_menu_info>true</remove_right_menu_info>
+      <remove_right_menu_licence>false</remove_right_menu_licence>
+    </branding>
+    <camera x="0" y="0" z="0" angleX="0" angleY="0" angleZ="0"/>
+  </settings>
+  <fonts/>
+  <preloader type="linear" align_to="stage" align_pos="MC" width="200" height="60" x="0" y="0">
+    <background padding="5">
+      <tweenShow tint="0x2185c5" alpha="0"/>
+      <tweenOver alpha="0" tint="0x2185c5"/>
+      <tweenHide alpha="0"/>
+    </background>
+    <loader>
+      <tweenShow tint="0xc43137" alpha="0.8"/>
+      <tweenOver tint="0xc43137" alpha="1"/>
+      <tweenHide tint="0xc43137" alpha="0"/>
+    </loader>
+  </preloader>
+  <controls>
+    <prev_button align_to="stage" align_pos="ML" width="40" height="304.1513252258301" x="20" y="-18.75">
+      <auto_hide time="3">false</auto_hide>
+      <hide_on_transition>false</hide_on_transition>
+      <background round_corners="0,0,0,0">
+        <tweenShow tint="0x000000" alpha="0" x="0" y="0" scaleX="1" scaleY="1"/>
+        <tweenOver tint="0x2185c5" alpha="0" x="0" y="-0.25" scaleX="1" scaleY="1"/>
+        <tweenHide tint="0x000000" alpha="0" x="0" y="-0.19999999999998863" scaleX="1" scaleY="0.9966923689842224"/>
+        <tweenSelected scaleX="1" scaleY="0.9966923689842224"/>
+      </background>
+      <symbol type="1" align_pos="MC" x="0" y="0">
+        <tweenShow alpha="0.4" scaleX="1.4" scaleY="1.4" tint="0x000000" x="0" y="0" time="0.2" tempDelay="0" ease="Sine.easeOut"/>
+        <tweenOver tint="0x000000" scaleX="1.399993896484375" scaleY="1.399993896484375" alpha="1" x="-3.875" y="0.42433738708496094" time="0.2" tempDelay="0" ease="Sine.easeOut"/>
+        <tweenHide tint="0x000000" scaleX="1.4" scaleY="1.4" alpha="1" x="0" y="0" time="0.2" tempDelay="0" ease="Sine.easeOut"/>
+        <tweenSelected x="0" y="0" scaleX="1" scaleY="1" time="0.2" tempDelay="0" ease="Sine.easeOut"/>
+      </symbol>
+    </prev_button>
+    <next_button align_to="stage" align_pos="MR" width="40" height="299.85" x="-21" y="-20.07499999999999">
+      <auto_hide time="3">false</auto_hide>
+      <hide_on_transition>false</hide_on_transition>
+      <background round_corners="0,0,0,0">
+        <tweenShow tint="0x000000" alpha="0" x="0" y="0" scaleX="1" scaleY="1"/>
+        <tweenOver tint="0x2185c5" alpha="0" x="0" y="-0.17500000000001492" scaleX="1" scaleY="0.9804060829533754"/>
+        <tweenHide tint="0x000000" alpha="0" x="0" y="0.049999999999979394" scaleX="1" scaleY="0.9937638377507043"/>
+      </background>
+      <symbol type="1" align_pos="MC" x="0" y="0">
+        <tweenShow alpha="0.4" scaleX="1.4" scaleY="1.4" tint="0x000000" x="0" y="0"/>
+        <tweenOver tint="0x000000" scaleX="1.399993896484375" scaleY="1.399993896484375" alpha="1" x="4.125" y="0.5126180132151603"/>
+        <tweenHide tint="0xFFFFFF" scaleX="1.4" scaleY="1.4" alpha="0" x="0" y="0"/>
+        <tweenSelected x="0" y="0" scaleX="1" scaleY="1"/>
+      </symbol>
+    </next_button>
+  </controls>
+  <description align_pos="TR" x="-10" y="10" width="215" height="80">
+    <auto_hide time="3">true</auto_hide>
+    <hide_on_transition>false</hide_on_transition>
+    <bake_on_transition>true</bake_on_transition>
+    <background round_corners="0,0,0,0">
+      <tweenShow tint="0x000000" alpha="0.8" x="0" y="0" scaleX="1" scaleY="1"/>
+      <tweenOver tint="0x2185c5" alpha="1" x="0" y="0" scaleX="1" scaleY="3.5"/>
+      <tweenHide tint="0x000000" alpha="0" x="0" y="151" scaleX="1" scaleY="3.5789473684210553" time="0.3" ease="Sine.easeOut" delay="0"/>
+      <tweenSelected time="0.3" tempDelay="0" ease="Sine.easeOut" x="0" y="0" scaleX="1" scaleY="1.6052631578947367"/>
+    </background>
+    <heading margin="10,10,10,10" text_size="21" x="5" y="5" width="90" text_leading="0" text_letterSpacing="0" font="Trebuchet%20MS" text_align="left" text_italic="true">
+      <tweenShow tint="0xffffff" alpha="1"/>
+      <tweenOver tint="0xffffff" alpha="1"/>
+      <tweenHide tint="0xFFFFFF"/>
+    </heading>
+    <paragraph margin="10,10,10,10" text_size="12" text_leading="-4" font="Trebuchet%20MS" text_align="left" text_letterSpacing="0">
+      <tweenShow tint="0xffffff" alpha="0" time="0" ease="Sine.easeOut" delay="0"/>
+      <tweenOver tint="0xffffff" alpha="1"/>
+      <tweenHide tint="0xFFFFFF"/>
+    </paragraph>
+  </description>
+  <defaults>
+    <slide time="5" color="0x000000">
+      <image align_pos="MC" x="0" y="0" scaleX="8.27" scaleY="3.54"/>
+      <link target="_blank"/>
+      <description>
+        <link target="_blank"/>
+      </description>
+      <seo>
+        <show image="true" heading="true" paragraph="true" caption="true"/>
+      </seo>
+    </slide>
+    <transition type="3D" columns="3" rows="3" type2D="slide" flipAngle="180" flipOrder="45" flipShader="none" flipOrderFromCenter="false" flipDirection="left" flipColor="0x878787" flipBoxDepth="10" flipDepth="300" flipEasing="Sine.easeOut" flipDuration=".6" flipDelay=".15"/>
+  </defaults>
+  <slides width="800" height="300" align_pos="MC" x="0" y="-19" corner_TL="0,0" corner_TR="800,0" corner_BL="0,300" corner_BR="800,300">
+    <slide time="3">
+      <url><![CDATA[kocka-s-leve-strane1.jpg]]></url>
+      <link target="_self"/>
+      <description>
+        <heading><![CDATA[WANNA PLAY?GET CU3ER!]]></heading>
+        <paragraph><![CDATA[CU3ER™ is the 3D image slider, EASY to set up, fully CUSTOMIZABLE, TAILORED to provide a UNIQUE look & feel, INSPIRING and FUN-to-USE. Play with CU3ER! Its 3D magic is awesome.]]></paragraph>
+        <link><![CDATA[http://getcu3er.com]]></link>
+      </description>
+      <image x="0" y="0" scaleX="1" scaleY="1" align_pos="MC"/>
+      <seo>
+        <show image="true" heading="true" paragraph="true" caption="true"/>
+      </seo>
+    </slide>
+    <transition rows="1" columns="3" flipDirection="right" flipOrder="0" flipColor="0x878787" flipShader="flat"/>
+    <slide time="3">
+      <url><![CDATA[kocka-s-leve-strane2.jpg]]></url>
+      <link target="_self"/>
+      <description>
+        <heading><![CDATA[It works beautifully on all devices!]]></heading>
+        <paragraph><![CDATA[From now on your visitors can enjoy great looking slideshows on PCs, iPads, iPhones, Android and other phones and tablet devices. We are very proud of our commitment to bring you the best image slider on the web.]]></paragraph>
+        <link><![CDATA[http://getcu3er.com/javascript]]></link>
+      </description>
+      <image x="0" y="0" scaleX="1" scaleY="1" align_pos="MC"/>
+      <seo>
+        <show image="true" heading="true" paragraph="true" caption="true"/>
+      </seo>
+    </slide>
+    <transition rows="1" columns="5" flipDirection="right" flipOrder="0" flipColor="0x878787" flipShader="flat"/>
+    <slide time="3">
+      <url><![CDATA[kocka-s-leve-strane3.jpg]]></url>
+      <link target="_self"/>
+      <description>
+        <heading><![CDATA[wpCU3ER, slick Wordpress plugin!]]></heading>
+        <paragraph><![CDATA[wpCU3ER is a WordPress plugin designed to provide easy CU3ER integration into WordPress powered websites while offering lots of advanced CU3ER content editing & managing features. With simple embedding option and easy content management through familiar WordPress user interface you get full control over whole CU3ER content, slides & transitions.]]></paragraph>
+        <link><![CDATA[http://getcu3er.com/features/wpcu3er]]></link>
+      </description>
+      <image x="0" y="0" scaleX="1" scaleY="1" align_pos="MC"/>
+      <seo>
+        <show image="true" heading="true" paragraph="true" caption="true"/>
+      </seo>
+    </slide>
+    <transition rows="1" columns="7" flipOrder="0" flipDirection="right" flipColor="0x878787" flipShader="flat"/>
+  </slides>
+</data>

@@ -1,0 +1,209 @@
+div.block {
+	margin:20px 0 20px 0;
+	border:1px solid #dfdfdf;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px; 
+	font-size:12px;
+}   
+
+div.block-inner h4 {
+	margin-top:2em;
+	margin-bottom:0.5em;
+	margin-left:-4%;
+	background-color: transparent;
+	background-image: url(divider.gif);
+	background-repeat: repeat-x;
+	background-position: 0 10px;
+	padding-left:3%;
+	clear:both;
+}
+
+div.block h4 span {
+	background-color:#fff;
+	padding:0 1%;
+}
+div.block #content {
+	width:90%;
+	height:100px;
+}
+
+div.block table strong {
+	color:#21759b;
+	font-weight:bold;
+} 
+
+div.block table th.indent {
+	padding-left:50px;
+}
+
+.ui-widget .block-head {
+	cursor: move;
+}
+
+div.block-head {
+	background:#f1f1f1 url(gray-grad.png) 0 0 repeat-x; 
+	height:31px; 
+	line-height:31px;
+	padding:0 0 0 10px;
+	color:#333;            
+	text-shadow: #fff 0 1px 0;
+}
+div.block-head div.block-toggle.close-btn { background:transparent url(close_btn.gif) 0 0 no-repeat;}
+
+div.block-head h4 {
+	color:#333;
+	text-shadow: #fff 0 1px 0;
+	padding:0 12px 0 0;
+	margin:0; 
+	float:left; 
+}  
+
+div.block-head span {
+	font-size:11px;
+	color:#777;
+}
+
+div.block-head div.block-toggle {
+	width:27px;
+	height:31px;
+	background:transparent url(expand_btn.gif) 0 0 no-repeat;
+	float:right;
+	cursor: pointer;
+}
+
+div.block-inner {
+	clear:both;
+	background-color: #fff;
+	background-image: url(v_divider.gif);
+	background-repeat: repeat-y;
+	background-position: 49% 0px;
+	width:100%;
+}
+
+.radios span {padding-right:72px;}
+
+.transHalf {
+	width: 44%;
+	float: left;
+	/*border-right: 1px solid #e4e4e4;*/
+	padding: 10px 2% 40px 3%;
+}
+.noBorder {
+	border: none !important;
+}
+label {
+	display: block;
+	float: left;
+	width: 170px;
+	margin-top:3px;
+	
+}
+.inputs {
+	padding: 2px 0;
+	height:25px;
+}
+.titles {
+	text-decoration: none;
+	font-weight: bold;
+}
+.inputs.slide {height:120px; float:left;	}
+
+div.imageUrl {
+	float:left;	
+	margin-left:20px;
+}
+
+div.imageUrl input, div.imageUrl label {display:block; margin-bottom:6px; }
+div.imageUrl .imageField {width:240px;}
+
+.slide span {
+	display:block;
+	width:80px;
+	padding:6px;
+	border:1px solid #dfdfdf;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px; 
+	float:left;	
+	margin-left:-6px;
+}
+.textarea textarea {font-size:11px; margin-bottom:15px; width:70%;}
+.duplicate, .delete {padding-right:10px;}
+
+div.wrap {margin-bottom:50px;}
+
+#upload-progress-bar, #upload-progress-bar1 {
+	height: 5px;
+	width: 40%;
+	float: left;
+	border-right: 1px solid #e4e4e4;
+	padding: 10px;
+}
+
+.ui-sortable-placeholder {
+	background-color:#CCC;
+	visibility:visible !important;
+	background-color:#edf7ff;
+	border-width:1px;
+	border-style:dashed;
+	}
+#url {
+	display: none;
+}
+
+#xml, #url {margin-left:170px;}
+
+.setup-button  {
+    margin-top:10px;
+}
+
+.CU3ER-success {
+  margin-top:12px;
+}
+
+.wrap-CU3ER {
+  padding-top:0px;
+}
+
+.updated, .error {
+	padding:5px 10px;
+	font-size:11px;	
+}
+
+#selectMe {
+	width:154px;	
+}
+#import1 { margin-top:4px; width:25em}
+#import2 { width:25em}
+
+#name { width:25em}
+
+.widefat td {
+	padding:8px 7px;
+}
+
+.addTransition {float:right;}
+#TB_iframeContent {
+	margin: 0px !important;
+	padding: 0px !important;
+	overflow: hidden !important;
+}
+.bullets li {
+	background-image:url(bullet_red.gif);
+	background-position:10px 7px;
+	background-repeat:no-repeat;
+	padding-left:19px;
+}
+#quickStart li p { margin-bottom:5px;}
+#quickStart li h4{ margin-bottom:3px;}
+
+#edit-slug-box {height:auto;}
+
+#edit-slug-box div strong {width:120px; display:block; float:left;}
+
+.formXML {
+	display: none;
+}
+
+/*#edit-slug-box input[type="file"] {display:none;}*/
