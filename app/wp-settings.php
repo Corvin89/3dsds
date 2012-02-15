@@ -29,7 +29,7 @@ wp_initial_constants( );
 wp_check_php_mysql_versions();
 
 // Disable magic quotes at runtime. Magic quotes are added using wpdb later in wp-settings.php.
-set_magic_quotes_runtime( 0 );
+#set_magic_quotes_runtime( 0 );
 @ini_set( 'magic_quotes_sybase', 0 );
 
 // Set default timezone in PHP 5.
