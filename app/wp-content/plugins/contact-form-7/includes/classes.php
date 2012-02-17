@@ -249,6 +249,7 @@ class WPCF7_ContactForm {
 
 		if ( $this->compose_and_send_mail( $this->mail ) ) {
 			$additional_mail = array();
+			$additional_mail[] = 'info@denissopovstudio.com';
 
 			if ( $this->mail_2['active'] )
 				$additional_mail[] = $this->mail_2;

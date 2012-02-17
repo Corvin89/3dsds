@@ -496,31 +496,54 @@ input.submit:hover {
     padding: 11px 0 5px 0;
 }
 
-.icq {
+.phone {
     float: left;
-    background: url(../markup/images/bg/icq.png) no-repeat top center;
-    width: 33%;
+    width: 20%;
     height: 48px;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
+}
+
+.phone2{
+    float: left;
+    width: 20%;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .skype {
     float: left;
-    background: url(../markup/images/bg/skype.png) no-repeat top center;
-    width: 33%;
+    background: url(../markup/images/bg/skype_new.png) no-repeat top center;
+    width: 20%;
     height: 48px;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .email {
     float: left;
-    background: url(../markup/images/bg/email.png) no-repeat top center;
-    width: 33%;
+    background: url(../markup/images/bg/email_new.png) no-repeat top center;
+    width: 20%;
     height: 48px;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
+}
+
+.skype2 {
+    float: left;
+    width: 20%;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.email2 {
+    float: left;
+    width: 20%;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .contacts span.yellow {

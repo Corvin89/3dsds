@@ -15,6 +15,13 @@ $info_box = array(
 			'type' => 'text',
 			'std' => ''
 		),
+		array(
+			'name' => 'Picture',
+			'desc' => '',
+			'id' => 'Picture',
+			'type' => 'text',
+			'std' => ''
+		),
         array(
 			'name' => 'Description',
 			'desc' => '',
