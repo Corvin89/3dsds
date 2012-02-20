@@ -498,6 +498,25 @@ input.submit:hover {
 
 .phone {
     float: left;
+    background: url(../markup/images/bg/phone.png) no-repeat top center;
+    width: 20%;
+    height: 48px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.name {
+    float: left;
+    background: url(../markup/images/bg/name.png) no-repeat top center;
+    width: 20%;
+    height: 48px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.job {
+    float: left;
+    background: url(../markup/images/bg/name.png) no-repeat top center;
     width: 20%;
     height: 48px;
     text-align: center;
