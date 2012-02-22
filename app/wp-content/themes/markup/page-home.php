@@ -4,7 +4,9 @@
 
     <?php query_posts('post_type=portfolio&orderby=rand&showposts='.get_option('Slide-show').'&portfolio-category=slider'); ?>
     <?php while (have_posts()) : the_post(); ?>
-        <a href="<?php the_permalink();?>"><?php the_thumb(750); ?></a>
+    <a href="<?php the_permalink();?>"><img src="<?php bloginfo('url') ?>/thumb.php?src=<?= wp_get_attachment_url(get_post_thumbnail_id($post->ID)) ?>&#38;h=1200&#38;w=800&#38;zc=1" alt="" /></a>
+<!--    <img src="--><?php //bloginfo('url') ?><!--/thumb.php?=--><?//= wp_get_attachment_url(get_post_thumbnail_id($post->ID)) ?><!--&#38;w=561&#38;zc=1" alt="" />-->
+<!--        <a href="--><?php //the_permalink();?><!--">--><?php //the_thumb(750); ?><!--</a>-->
     <?php endwhile; ?>
     <?php wp_reset_query(); ?>
     
