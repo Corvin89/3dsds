@@ -86,9 +86,10 @@ div.home{
 
 #logo a {
     display: block;
-    width: 157px;
+    width: 97px;
     height: 99px;
     background: url(../markup/images/bg/logo.png);
+    margin-left: 28px;
 }
 
 #slogan {
