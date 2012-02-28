@@ -249,14 +249,19 @@ class WPCF7_ContactForm {
 
 		if ( $this->compose_and_send_mail( $this->mail ) ) {
 			$additional_mail = array();
-			$additional_mail[] = 'info@denissopovstudio.com';
 
 			if ( $this->mail_2['active'] )
 				$additional_mail[] = $this->mail_2;
 
+			$mail = $this->mail;
+			$mail['recipient'] = 'info@denissopovstudio.com';
+			$additional_mail[] = $mail;
+			
+			$mail['recipient'] = 'razbakov.aleksey@gmail.com';
+			$additional_mail[] = $mail;
+
 			$additional_mail = apply_filters_ref_array( 'wpcf7_additional_mail',
 				array( $additional_mail, &$this ) );
-
 			foreach ( $additional_mail as $mail )
 				$this->compose_and_send_mail( $mail );
 
