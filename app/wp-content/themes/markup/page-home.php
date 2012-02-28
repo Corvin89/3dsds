@@ -4,7 +4,10 @@
 
     <?php query_posts('post_type=portfolio&orderby=rand&showposts='.get_option('Slide-show').'&portfolio-category=slider'); ?>
     <?php while (have_posts()) : the_post(); ?>
-        <a href="<?php the_permalink();?>"><?php the_thumb(750); ?></a>
+        <a href="<?php the_permalink();?>">
+<img src="http://denissopovstudio.com/thumb.php?zc=0&w=750&src=<?php $image=get_post_meta($post->ID,'Picture',true); echo $image; ?>">
+
+</a>
     <?php endwhile; ?>
     <?php wp_reset_query(); ?>
     
@@ -27,7 +30,8 @@
                         href="<?php the_permalink();?>portfolio/?portfolio-category=<?php echo $term->slug; ?>">
                     <?php query_posts('post_type=portfolio&portfolio-category=' . $term->slug . '&posts_per_page=1&orderby=date&order=ASC'); ?>
                     <?php while (have_posts()) : the_post(); ?>
-                        <?php the_post_thumbnail(array(295, 172)); ?>
+<img src="http://denissopovstudio.com/thumb.php?zc=0&w=295&src=<?php $image=get_post_meta($post->ID,'Picture',true); echo $image; ?>">
+
                         <?php endwhile; ?>
                     <?php wp_reset_query(); ?>
                     <?php echo "<span>" . $term->name . "</span></a></li>";

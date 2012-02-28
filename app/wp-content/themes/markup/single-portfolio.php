@@ -31,7 +31,10 @@
     } elseif($vimeo) { ?>
         <iframe src="http://player.vimeo.com/video/<?php echo $vimeo[3]; ?>?portrait=0&amp;autoplay=1" width="853" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     <?php } else {
-        the_post_thumbnail();
+?>
+<img src="http://denissopovstudio.com/thumb.php?zc=0&w=750&src=<?php $image=get_post_meta($post->ID,'Picture',true); echo $image; ?>">
+
+<?php
     }?>
         <div class="clear"></div>
     </div>
